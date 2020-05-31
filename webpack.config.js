@@ -13,7 +13,7 @@ module.exports = {
         historyApiFallback: true,
     },
     entry: {
-        app: ['babel-polyfill', SRC_DIR + '/index.js'],
+        app: ['babel-polyfill', `${SRC_DIR}/index.js`],
     },
     output: {
         path: DIST_DIR,
